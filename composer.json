@@ -12,11 +12,10 @@
         }
     ],
     "require": {
-        "php": ">=5.5",
         "akamai-open/edgegrid-auth": "^1.0.0",
         "guzzlehttp/guzzle": "^6.1.1",
         "psr/log": "^1.0",
-        "monolog/monolog": "^1.15",
+        "monolog/monolog": "^2.2",
         "league/climate": "~3.2"
     },
     "require-dev": {
@@ -34,11 +33,6 @@
     "autoload-dev": {
         "psr-4": {
             "Akamai\\Open\\EdgeGrid\\Tests\\": ["tests", "vendor/akamai-open/edgegrid-auth/tests"]
-        }
-    },
-    "config": {
-        "platform": {
-            "php": "5.5"
         }
     },
     "bin": [
